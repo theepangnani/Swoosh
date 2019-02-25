@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
             //Two types of Intents: Explicit (Send instruction our own implementation) and Implicit (Send instruction to Android System, Android system will find the class or module to complete the action)
 
-            //Context 
+            //Context
 
         }
     }
